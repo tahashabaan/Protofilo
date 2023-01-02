@@ -1,0 +1,45 @@
+.works {
+  height: 960px;
+}
+
+.works ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.6rem;
+ padding-top: 15px;
+}
+.works ul li {
+  cursor: pointer;
+  color: var(--white);
+  font-size: var(--fontMed);
+}
+
+.active {
+  background-color: var(--indigo);
+  padding: 4px 8px;
+  border-radius: 12px;
+  /* color: ; */
+  transition:background-color 0.6s;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.1rem;
+  margin: 2rem 0rem;
+}
+.wrapper {
+  padding: 1rem;
+  width: 200px ;
+  margin: auto;
+}
+.wrapper img {
+  width: 100%;
+}
+
+@media screen and ( max-width: 768px ) {
+  .works ul {
+    flex-direction: column;
+  }
+  
+}

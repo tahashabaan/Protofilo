@@ -1,0 +1,77 @@
+.home {
+  position: relative;
+  z-index: -1;
+  /* background-color: black; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+ .myname {
+  position: relative;
+  color: var(--orange);
+}
+
+.myname span {
+  padding: 0.5rem;
+  position: absolute;
+  right: -100%;
+  top: 10px;
+  font-size: small;
+  color: var(--white);
+  opacity: 0.4;
+}
+
+.logo,.myname span {
+  animation: logo 1.1s ease-in-out;
+}
+
+.logo {
+  color: var(--white);
+}
+.href { cursor: pointer;}
+
+.href a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+@keyframes logo {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+  transform: translateX(1);
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .myname {
+    margin: 1.3rem;
+  }
+
+  .myname span {
+     right: 0;
+     padding: 1rem;
+  }
+}
+
+
+/* .left { flex: 0.5;}
+
+.imgContainer {
+  height: 450px;
+  border-radius: 50%;
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgContainer img {
+  width: 100%;
+} */

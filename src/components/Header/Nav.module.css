@@ -1,0 +1,39 @@
+.nav {
+  flex: 2;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ .Link {
+  font-size: var(--fontMed);
+  text-decoration: none;
+  color: black;
+  transition:  color 0.2s;
+}
+
+.Link:hover {
+  color: var(--green);
+}
+
+@media screen and (max-width : 992px){
+  .Link {
+    font-size: var(--fontMed);
+  }
+  
+}
+
+@media screen and ( max-width: 768px ) {
+  .nav {
+   display: none;
+  }
+
+  .navBtn {
+    display: block;
+  }
+  
+  
+}

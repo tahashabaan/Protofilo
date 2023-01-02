@@ -1,0 +1,40 @@
+.testmionals {
+  height: calc(100vh - 80px);
+  background-color: var(--dark);
+}
+
+.testmionals section {
+  padding: 4rem;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.testmionals ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.item {
+ border: 1px solid var(--orange);
+ border-radius: 50%;
+ padding: 0.4rem;
+ cursor: pointer;
+}
+.active {
+  background-color: var(--orange);
+  transition: all 0.4s;
+
+}
+
+@media screen and (max-width: 768px){
+
+  .testmionals section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Protofilo/static/css/main.8e53172f.chunk.css",
+    "main.js": "/Protofilo/static/js/main.5117eb96.chunk.js",
+    "main.js.map": "/Protofilo/static/js/main.5117eb96.chunk.js.map",
+    "runtime-main.js": "/Protofilo/static/js/runtime-main.4bbb8e60.js",
+    "runtime-main.js.map": "/Protofilo/static/js/runtime-main.4bbb8e60.js.map",
+    "static/js/2.6239a50e.chunk.js": "/Protofilo/static/js/2.6239a50e.chunk.js",
+    "static/js/2.6239a50e.chunk.js.map": "/Protofilo/static/js/2.6239a50e.chunk.js.map",
+    "index.html": "/Protofilo/index.html",
+    "precache-manifest.bd5b68d455a405d1f42af1c4b75058d5.js": "/Protofilo/precache-manifest.bd5b68d455a405d1f42af1c4b75058d5.js",
+    "service-worker.js": "/Protofilo/service-worker.js",
+    "static/css/main.8e53172f.chunk.css.map": "/Protofilo/static/css/main.8e53172f.chunk.css.map",
+    "static/js/2.6239a50e.chunk.js.LICENSE.txt": "/Protofilo/static/js/2.6239a50e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4bbb8e60.js",
+    "static/js/2.6239a50e.chunk.js",
+    "static/css/main.8e53172f.chunk.css",
+    "static/js/main.5117eb96.chunk.js"
+  ]
+}

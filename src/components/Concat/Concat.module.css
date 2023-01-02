@@ -1,0 +1,54 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem;
+  height: 100vh;
+  
+
+  /* background-color:black; */
+}
+.contact h1 {
+  color:var(--white);
+  padding: 1rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.form >* , .input>*{
+  outline: none;
+}
+.form >*::placeholder {color: var(--white);}
+.input ::placeholder { color: var(--white);}
+
+.input input:first-of-type {
+ margin-right: 15px;
+}
+
+input, textarea {
+ background-color: var(--dark);
+ padding: 0.8rem 1.9rem;
+ font-size: var(--fontSmall);
+ border-radius: 10px;
+ color: var(--white);
+ }
+
+ textarea {height: 200px;}
+
+.form button {
+  width: fit-content;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 576px ) {
+  .input input{
+    width: 100%;
+  }
+  .input input:first-of-type {
+    margin-bottom: 20px;
+  }
+}

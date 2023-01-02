@@ -1,0 +1,40 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  padding: 20px;
+}
+
+ .active_head {
+  background-color: var(--medGray);
+  color: var(--white);
+}
+.active_head_2 {
+  background-color: var(--dark);
+
+}
+
+.head h1 {
+  flex: 1;
+}
+
+.navBtn {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+   .navBtn {
+    display: block;
+   }
+  
+}
+
+@media screen and (max-width: 320px) {
+  .head h1 {
+    font-size: 1.1rem;
+  }
+}
+ 

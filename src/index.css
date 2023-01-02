@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0rem;
+  padding: 0rem;
+  font-family: sans-serif;
+}
+
+ :root {
+   --fontSmall:1.1rem ;
+   --fontMed: 1.4rem;
+   --fontBig: 2.2rem;
+   --darkGray: #1c1c1c;
+   --medGray: #353535;
+   --lightGray: #eee;
+   --white:#fff;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  /* background-color:white; */
+  background-color: var(--gray-dark) ;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #3c0080;
+  border: 1px solid #3c0080;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+}
+
+button:hover,
+button:active {
+  background-color: #5b14ac;
+  border-color: #5b14ac;
+}
+ 
+.section-head {
+  text-align: center;
+  padding: 1.3rem ;
+  color: white;
+  font-size: var(--fontBig);
+  cursor: pointer;
+}

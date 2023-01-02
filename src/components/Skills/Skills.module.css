@@ -1,0 +1,26 @@
+.skills{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap: 0.6rem;
+  margin: 2rem 0rem;
+
+}
+.wrapper {
+  width: fit-content;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-dark);
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+.wrapper img {
+  width: 100px;
+  object-fit: cover;
+}
+/* .wrapper img:first-child {
+  width: 100px;
+  object-fit: cover;
+} */
