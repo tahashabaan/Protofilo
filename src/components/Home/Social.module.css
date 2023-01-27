@@ -1,0 +1,33 @@
+ .social {
+  /* position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%); */
+  display: flex; 
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 5.4rem;
+  background-color:rgba(0, 0, 0, 0.2);
+  padding: 12px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+} 
+
+.social i {
+  font-size: 88px;
+}
+
+a:hover  {
+  color: white;
+}
+
+@media screen and (max-width: 776px) {
+  
+  .social i {
+    font-size: 42px;
+
+    
+  }
+  
+  
+}

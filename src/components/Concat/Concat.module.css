@@ -1,54 +1,105 @@
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 4rem;
-  height: 100vh;
-  
 
-  /* background-color:black; */
-}
 .contact h1 {
   color:var(--white);
   padding: 1rem;
 }
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.4rem;
+
+.right {
+  width: 60%;
+  padding: 6rem 3rem;
+  /* height: 30rem; */
+  margin: auto;
+  background-color:rgba(0, 0, 0, 0.46)
 }
 
-.form >* , .input>*{
-  outline: none;
-}
-.form >*::placeholder {color: var(--white);}
-.input ::placeholder { color: var(--white);}
 
-.input input:first-of-type {
- margin-right: 15px;
-}
+    .input {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
 
-input, textarea {
- background-color: var(--dark);
- padding: 0.8rem 1.9rem;
- font-size: var(--fontSmall);
- border-radius: 10px;
- color: var(--white);
- }
+    .input label{
+      font-size: 52px;
+      font-weight: 600;
+      width: 20%;
+      color: white;
 
- textarea {height: 200px;}
+     
+    }
 
-.form button {
-  width: fit-content;
-  margin-right: auto;
-}
+    .input input {
+      width: 70%;
+      font-size: 44px;
+      margin-bottom: 3rem;
+      padding: 1.3rem 1rem ;
+      border-radius: 16px;
+    }
 
-@media screen and (max-width: 576px ) {
-  .input input{
-    width: 100%;
-  }
-  .input input:first-of-type {
-    margin-bottom: 20px;
-  }
-}
+    .input input::placeholder, .message::placeholder {
+      font-size: 44px;
+    }
+
+    .message {
+       display: block;
+       width: 80%;
+       max-height: 20rem;
+       max-width: 100%;
+       scroll-behavior: smooth;
+       overflow-y: auto;
+       font-size: 54px;
+       padding-left: 0.5rem;
+       margin: auto;
+       margin-bottom: 2rem;
+    }
+
+    .concat_btn {
+      display: block;
+      width: fit-content;
+      margin: auto;
+      background-color: var(--green);
+      font-size: 44px;
+    }
+
+    @media screen and (max-width:1660px){
+
+      .right { width: 100%; }
+      
+    }
+
+    @media screen and (max-width:960px){
+
+      .right { 
+        width: 100%; 
+      }
+
+     .form {
+       width: 100%;
+       margin: 0;
+  
+      }
+      
+      .input {
+        flex-direction: column;
+        /* justify-content: stretch; */
+      }
+
+      .input label {
+        font-size:30px;
+      }
+
+      .input input{
+        width: 100%;
+        font-size: 32px;
+
+        padding: 0.1rem 1rem;
+      }
+
+      .input input::placeholder, .message::placeholder {
+        font-size: 18px;
+      }
+
+      .concat_btn {
+        font-size: 20px;
+      }
+    }

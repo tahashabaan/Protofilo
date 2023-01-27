@@ -31,6 +31,7 @@ const Header = () => {
  
 
   return (
+
     <header 
      className ={ scrollDemo && !menuOpening  ? 
       `${classes.active_head }
@@ -41,7 +42,6 @@ const Header = () => {
        {menuOpening && <NavMobile
         HideMenuHandle={HideMenuHandle}
         menuOpening={menuOpening}
-
         />}
        {!menuOpening && <button className={classes.navBtn} 
          onClick={showMenuHandle}>

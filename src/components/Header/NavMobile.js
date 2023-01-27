@@ -13,7 +13,7 @@ import classes from './NavMobile.module.css'
     
      <ul>
        <li onClick={HideMenuHandle}>
-         <Link to='/' className={classes.Link}>
+         <Link to='/Protofilo' className={classes.Link}>
           Home
          </Link>
        </li>

@@ -1,17 +1,16 @@
 .nav_mobile {
-  position: fixed;
-  top: 0;
-  z-index: 10;
-  width: 100%; 
+  width: 100%;
+  top: 0px;
   height: 100vh;
   background-color: var(--purple);
-  animation: menuBar 1.3s both;
-  animation-direction: alternate;
+  animation: menuBar 1.5s both;
+
+  
 }  
 
-.revse {
+/* .revse {
   animation: revseBar 2s both;
-}
+} */
 
 .navBtn {
   position: absolute;
@@ -37,22 +36,26 @@
   color: var(--white);
   padding: 0.6rem;
 }
+
 .Link:hover {
   font-weight: 500;
 }
 
 @keyframes menuBar {
+
   from {
     right: -100%;
   }
 
   to {
-    right: 0% ;
+    right: 0px ;
+    top: 0px;
   }
   
 } 
 
 @keyframes revseBar {
+
   from {
     right: 100%;
   }
@@ -60,4 +63,5 @@
   to {
     right: 0%;
   }
+  
 }
