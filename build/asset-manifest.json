@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/Protofilo/static/css/main.8e53172f.chunk.css",
-    "main.js": "/Protofilo/static/js/main.5117eb96.chunk.js",
-    "main.js.map": "/Protofilo/static/js/main.5117eb96.chunk.js.map",
-    "runtime-main.js": "/Protofilo/static/js/runtime-main.4bbb8e60.js",
-    "runtime-main.js.map": "/Protofilo/static/js/runtime-main.4bbb8e60.js.map",
-    "static/js/2.6239a50e.chunk.js": "/Protofilo/static/js/2.6239a50e.chunk.js",
-    "static/js/2.6239a50e.chunk.js.map": "/Protofilo/static/js/2.6239a50e.chunk.js.map",
+    "main.css": "/Protofilo/static/css/main.04988216.chunk.css",
+    "main.js": "/Protofilo/static/js/main.c9f8052f.chunk.js",
+    "main.js.map": "/Protofilo/static/js/main.c9f8052f.chunk.js.map",
+    "runtime-main.js": "/Protofilo/static/js/runtime-main.743ae35d.js",
+    "runtime-main.js.map": "/Protofilo/static/js/runtime-main.743ae35d.js.map",
+    "static/js/2.71e9012c.chunk.js": "/Protofilo/static/js/2.71e9012c.chunk.js",
+    "static/js/2.71e9012c.chunk.js.map": "/Protofilo/static/js/2.71e9012c.chunk.js.map",
     "index.html": "/Protofilo/index.html",
-    "precache-manifest.bd5b68d455a405d1f42af1c4b75058d5.js": "/Protofilo/precache-manifest.bd5b68d455a405d1f42af1c4b75058d5.js",
+    "precache-manifest.103514e163fceb5f1de8d30e18e218dc.js": "/Protofilo/precache-manifest.103514e163fceb5f1de8d30e18e218dc.js",
     "service-worker.js": "/Protofilo/service-worker.js",
-    "static/css/main.8e53172f.chunk.css.map": "/Protofilo/static/css/main.8e53172f.chunk.css.map",
-    "static/js/2.6239a50e.chunk.js.LICENSE.txt": "/Protofilo/static/js/2.6239a50e.chunk.js.LICENSE.txt"
+    "static/css/main.04988216.chunk.css.map": "/Protofilo/static/css/main.04988216.chunk.css.map",
+    "static/js/2.71e9012c.chunk.js.LICENSE.txt": "/Protofilo/static/js/2.71e9012c.chunk.js.LICENSE.txt",
+    "static/media/Taha_Shabaan_Resume.pdf": "/Protofilo/static/media/Taha_Shabaan_Resume.77b9814a.pdf",
+    "static/media/cruds.jpg": "/Protofilo/static/media/cruds.58b8bb6f.jpg",
+    "static/media/ecommerce.jpg": "/Protofilo/static/media/ecommerce.1a40f242.jpg",
+    "static/media/food_order.jpg": "/Protofilo/static/media/food_order.1eb9ba70.jpg",
+    "static/media/form_empoly.jpg": "/Protofilo/static/media/form_empoly.bbcd839f.jpg",
+    "static/media/movie_app.jpg": "/Protofilo/static/media/movie_app.cc825598.jpg",
+    "static/media/shoping_cart.jpg": "/Protofilo/static/media/shoping_cart.e8d64c08.jpg",
+    "static/media/taha.jpeg": "/Protofilo/static/media/taha.7d37e5c2.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4bbb8e60.js",
-    "static/js/2.6239a50e.chunk.js",
-    "static/css/main.8e53172f.chunk.css",
-    "static/js/main.5117eb96.chunk.js"
+    "static/js/runtime-main.743ae35d.js",
+    "static/js/2.71e9012c.chunk.js",
+    "static/css/main.04988216.chunk.css",
+    "static/js/main.c9f8052f.chunk.js"
   ]
 }

@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import classes from './About.module.css';
-import CV from '../../assests/Taha_Shabaan_Resume.pdf'
-import image from '../../assests/taha.jpeg'
+import CV from '../../assests/Taha_Shabaan_Resume.pdf';
+import image from '../../assests/taha.jpeg';
 
 
 
